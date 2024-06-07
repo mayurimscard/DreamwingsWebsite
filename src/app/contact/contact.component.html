@@ -1,0 +1,105 @@
+<section class="section section-lg section-shaped">
+    <div class="shape shape-style-1 shape-default">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="container py-md">
+      <div class="row row-grid justify-content-between align-items-center">
+         <div class="col-lg-6">
+          <!-- <h3 class="display-3 text-white">Dreamwings Solutions pvt.ltd
+            <span class="text-white">Jaysingpur</span>
+          </h3> -->
+          <h2 class="display-3 text-white"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Address</h2>
+          <p class=" text-white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C S No 1422,Lane no 11, Jaysingpur,</p> 
+          <p class=" text-white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kolhapur,Maharashtra,Pincode 416101</p>
+          <h2 class="display-3 text-white"><i class="fa fa-envelope-o"></i>&nbsp;&nbsp;Send Your Message</h2>
+          <p class=" text-white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dreamwingssolutions@gmail.com</p> 
+          <h2 class="display-3 text-white"><i class="fa fa-phone"></i>&nbsp;&nbsp;Call Us On</h2>
+          <p class=" text-white">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9893849090</p>
+          
+          
+        </div>
+        <div class="col-lg-5 mb-lg-auto">
+          <div class="transform-perspective-right">
+            <div class="card bg-secondary shadow border-0">
+              <div class="card-header bg-white">
+                <div class="text-muted text-center mb-3">
+                  <h3>Want to work with us?</h3>
+                </div>
+                
+              </div>
+              <div class="card-body px-lg-5 py-lg-5" >
+                
+                <form  action="javascript:void(0)" (submit)="send()" [formGroup]="form">
+                  <div class="form-group" [ngClass]="{'focused':focus===true}">
+                    <div class="input-group input-group-alternative">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="ni ni-single-02"></i></span>
+                      </div>
+                      <input class="form-control" placeholder="FullName" type="text" (focus)="focus=true" (blur)="focus=false" formControlName="from_name" id="name">
+                    </div>
+                  </div>
+                  
+                
+                  <div class="form-group" [ngClass]="{'focused':focus1===true}">
+                    <div class="input-group input-group-alternative">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                      </div>
+                      <input class="form-control" placeholder="Email address" type="email" (focus)="focus1=true" (blur)="focus1=false" formControlName="from_email" id="email">
+                    </div>
+                  </div>
+                  <div class="form-group" [ngClass]="{'focused':focus===true}">
+                    <div class="input-group input-group-alternative">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="ni ni-folder-17"></i></span>
+                      </div>
+                      <input class="form-control" placeholder="Subject" type="text" (focus)="focus=true" (blur)="focus=false" formControlName="from_subject" id="subject">
+                    </div>
+                  </div>
+                  <div class="form-group" [ngClass]="{'focused':focus===true}">
+            
+                        <textarea class="form-control form-control-alternative" rows="3" placeholder="Type a message..." formControlName="message" id="message"></textarea>
+                      
+                  </div>
+                 
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-primary my-4">Send Message</button>
+                  </div>
+                  <div class="btn-wrapper text-center">
+                  
+                    <a href="https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F%3Ftab%3Drm%26ogbl&osid=1&passive=1209600&service=mail&ifkv=AaSxoQxzRiTcvzHNLNdci4ZmMldGzH40wRWAzyjKOsAzpZdO_W3OSt7Fx7IYFDzjSKBkinabAOWCzQ&ddm=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="btn btn-neutral btn-icon">
+                      <span class="btn-inner--icon">
+                        <img src="./assets/img/icons/common/google.svg">
+                      </span>
+                      <span class="btn-inner--text">Google</span>
+                    </a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SVG separator -->
+    <div class="separator separator-bottom separator-skew">
+      <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+    </div>
+  </section>
+  
+  <section class="section section-lg">
+    <div class="container">
+    <div class="map-div"> 
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61119.26874318881!2d74.47950484863283!3d16.778949300000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc11f001bf3dc7f%3A0x485030337d258f1!2sDreamwings%20solution%20Pvt.%20ltd.!5e0!3m2!1sen!2sin!4v1714648170883!5m2!1sen!2sin"  width="100%" height="100%" style="border:0; height: 500px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+  </div> 
+  </section>
